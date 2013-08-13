@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  fat: 1
+  vita: 1
+  vitd: 1
+  vite: 1
+  vitk: 1
+  vitb1: 1
+  vitb2: 1
+  vitb3: 1
+  vitb5: 1
+  vitb6: 1
+  vitb12: 1
+  biotin: 1
+  vitc: 1
+  folate: 1
+
+two:
+  name: MyString
+  fat: 1
+  vita: 1
+  vitd: 1
+  vite: 1
+  vitk: 1
+  vitb1: 1
+  vitb2: 1
+  vitb3: 1
+  vitb5: 1
+  vitb6: 1
+  vitb12: 1
+  biotin: 1
+  vitc: 1
+  folate: 1

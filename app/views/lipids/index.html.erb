@@ -1,0 +1,21 @@
+<h1>Listing lipids</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @lipids.each do |lipid| %>
+  <tr>
+    <td><%= link_to 'Show', lipid %></td>
+    <td><%= link_to 'Edit', edit_lipid_path(lipid) %></td>
+    <td><%= link_to 'Destroy', lipid, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Lipid', new_lipid_path %>

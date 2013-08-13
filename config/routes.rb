@@ -1,4 +1,13 @@
 Nutrition::Application.routes.draw do
+  resources :lipids
+
+
+  resources :formulas
+
+
+  resources :ebms
+
+
   resources :tpns
 
 

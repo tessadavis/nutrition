@@ -1,0 +1,77 @@
+<%= form_for(@lipid) do |f| %>
+  <% if @lipid.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@lipid.errors.count, "error") %> prohibited this lipid from being saved:</h2>
+
+      <ul>
+      <% @lipid.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+ <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :fat %><br />
+    <%= f.number_field :fat %>
+  </div>
+  <div class="field">
+    <%= f.label :vita %><br />
+    <%= f.number_field :vita %>
+  </div>
+  <div class="field">
+    <%= f.label :vitd %><br />
+    <%= f.number_field :vitd %>
+  </div>
+  <div class="field">
+    <%= f.label :vite %><br />
+    <%= f.number_field :vite %>
+  </div>
+  <div class="field">
+    <%= f.label :vitk %><br />
+    <%= f.number_field :vitk %>
+  </div>
+  <div class="field">
+    <%= f.label :vitb1 %><br />
+    <%= f.number_field :vitb1 %>
+  </div>
+  <div class="field">
+    <%= f.label :vitb2 %><br />
+    <%= f.number_field :vitb2 %>
+  </div>
+  <div class="field">
+    <%= f.label :vitb3 %><br />
+    <%= f.number_field :vitb3 %>
+  </div>
+  <div class="field">
+    <%= f.label :vitb5 %><br />
+    <%= f.number_field :vitb5 %>
+  </div>
+  <div class="field">
+    <%= f.label :vitb6 %><br />
+    <%= f.number_field :vitb6 %>
+  </div>
+  <div class="field">
+    <%= f.label :vitb12 %><br />
+    <%= f.number_field :vitb12 %>
+  </div>
+  <div class="field">
+    <%= f.label :biotin %><br />
+    <%= f.number_field :biotin %>
+  </div>
+  <div class="field">
+    <%= f.label :vitc %><br />
+    <%= f.number_field :vitc %>
+  </div>
+  <div class="field">
+    <%= f.label :folate %><br />
+    <%= f.number_field :folate %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

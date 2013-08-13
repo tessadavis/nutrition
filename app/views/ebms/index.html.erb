@@ -1,0 +1,21 @@
+<h1>Listing ebms</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ebms.each do |ebm| %>
+  <tr>
+    <td><%= link_to 'Show', ebm %></td>
+    <td><%= link_to 'Edit', edit_ebm_path(ebm) %></td>
+    <td><%= link_to 'Destroy', ebm, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Ebm', new_ebm_path %>
