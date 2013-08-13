@@ -20,14 +20,12 @@ one:
   vitb1: 1
   vitb2: 1
   vitb3: 1
-  vitb5: MyString
-  integer: MyString
+  vitb5: 1
   vitb6: 1
   vitc: 1
   vitd: 1
   vitb12: 1
-  vitb7: MyString
-  integer: MyString
+  vitb7: 1
   vite: 1
   vitk: 1
   choline: 1
@@ -59,14 +57,12 @@ two:
   vitb1: 1
   vitb2: 1
   vitb3: 1
-  vitb5: MyString
-  integer: MyString
+  vitb5: 1
   vitb6: 1
   vitc: 1
   vitd: 1
   vitb12: 1
-  vitb7: MyString
-  integer: MyString
+  vitb7: 1
   vite: 1
   vitk: 1
   choline: 1
