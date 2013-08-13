@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  aman: 1
+  dex: 1
+  sod: 1
+  pot: 1
+  calc: 1
+  mag: 1
+  phos: 1
+  chlor: 1
+  acet: 1
+  zinc: 1
+  selen: 1
+  iod: 1
+  hep: 1
+
+two:
+  name: MyString
+  aman: 1
+  dex: 1
+  sod: 1
+  pot: 1
+  calc: 1
+  mag: 1
+  phos: 1
+  chlor: 1
+  acet: 1
+  zinc: 1
+  selen: 1
+  iod: 1
+  hep: 1
