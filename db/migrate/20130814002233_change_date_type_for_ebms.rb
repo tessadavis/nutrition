@@ -61,7 +61,7 @@ class ChangeDateTypeForEbms < ActiveRecord::Migration
    change_column :ebms, :vitb1, :integer
    change_column :ebms, :vitb2, :integer
    change_column :ebms, :vitb3, :integer
-   change_column :ebms, :vitb5, :integer
+   change_column :ebms, :vitb5, :string
    change_column :ebms, :vitb6, :integer
    change_column :ebms, :vitb7, :integer
    change_column :ebms, :vitb12, :integer
