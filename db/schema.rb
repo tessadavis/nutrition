@@ -66,7 +66,6 @@ ActiveRecord::Schema.define(:version => 20130814003507) do
     t.decimal  "vitb1"
     t.decimal  "vitb2"
     t.decimal  "vitb3"
-    t.decimal  "vitb5"
     t.decimal  "vitb6"
     t.decimal  "vitc"
     t.decimal  "vitd"

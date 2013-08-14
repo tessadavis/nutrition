@@ -22,7 +22,6 @@ class ChangeDateTypeForEbms < ActiveRecord::Migration
    change_column :ebms, :vitb1, :decimal
    change_column :ebms, :vitb2, :decimal
    change_column :ebms, :vitb3, :decimal
-   change_column :ebms, :vitb5, :decimal
    change_column :ebms, :vitb6, :decimal
    change_column :ebms, :vitb7, :decimal
    change_column :ebms, :vitb12, :decimal
@@ -36,6 +35,7 @@ class ChangeDateTypeForEbms < ActiveRecord::Migration
    change_column :ebms, :selen, :decimal
    change_column :ebms, :osm, :decimal
    remove_column :ebms, :integer
+   remove_column :ebms, :vitb5
    
   end
   def self.down
@@ -61,7 +61,6 @@ class ChangeDateTypeForEbms < ActiveRecord::Migration
    change_column :ebms, :vitb1, :integer
    change_column :ebms, :vitb2, :integer
    change_column :ebms, :vitb3, :integer
-   change_column :ebms, :vitb5, :string
    change_column :ebms, :vitb6, :integer
    change_column :ebms, :vitb7, :integer
    change_column :ebms, :vitb12, :integer
